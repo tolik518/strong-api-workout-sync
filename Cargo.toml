@@ -2,7 +2,7 @@
 resolver = "3"
 members = [
     "strong-api-lib",
-    "strong-api-fetch"
+    "strong-sync-service"
 ]
 
 [profile.ci]

@@ -13,7 +13,7 @@ use strong_api_lib::strong_api::{Includes, StrongApi};
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args: Vec<String> = env::args().collect();
     if args.len() > 1 && (args[1] == "--version" || args[1] == "-v") {
-        println!("strong-api-fetch v{}", env!("CARGO_PKG_VERSION"));
+        println!("strong-sync-service v{}", env!("CARGO_PKG_VERSION"));
         return Ok(());
     }
 

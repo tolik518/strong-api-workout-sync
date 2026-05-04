@@ -34,7 +34,7 @@ jobs:
 
       - name: Extract version from Cargo.toml
         run: |
-          VERSION=$(grep '^version' strong-api-fetch/Cargo.toml | head -n 1 | sed -E 's/version *= *"([^"]+)".*/\1/')
+          VERSION=$(grep '^version' strong-sync-service/Cargo.toml | head -n 1 | sed -E 's/version *= *"([^"]+)".*/\1/')
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           echo "Version extracted: $VERSION"
 
@@ -70,7 +70,7 @@ jobs:
 
       - name: Extract version from Cargo.toml
         run: |
-          VERSION=$(grep '^version' strong-api-fetch/Cargo.toml | head -n 1 | sed -E 's/version *= *"([^"]+)".*/\1/')
+          VERSION=$(grep '^version' strong-sync-service/Cargo.toml | head -n 1 | sed -E 's/version *= *"([^"]+)".*/\1/')
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           echo "Version extracted: $VERSION"
 

@@ -1401,7 +1401,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
 
 [[package]]
-name = "strong-api-fetch"
+name = "strong-api-lib"
+version = "0.3.2"
+dependencies = [
+ "reqwest",
+ "serde",
+ "serde_json",
+ "tokio",
+ "wiremock",
+]
+
+[[package]]
+name = "strong-sync-service"
 version = "0.2.2"
 dependencies = [
  "clickhouse",
@@ -1413,17 +1424,6 @@ dependencies = [
  "time",
  "tokio",
  "uuid",
-]
-
-[[package]]
-name = "strong-api-lib"
-version = "0.3.2"
-dependencies = [
- "reqwest",
- "serde",
- "serde_json",
- "tokio",
- "wiremock",
 ]
 
 [[package]]

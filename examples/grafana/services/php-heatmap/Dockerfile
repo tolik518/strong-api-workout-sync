@@ -1,7 +1,7 @@
 # Dockerfile
 #
 # Build and run without Docker Compose. You need a ClickHouse server running and accessible from the container.
-# You should use the docker compose from https://github.com/tolik518/strong-api-workout-fetch additionally to
+# You should use the docker compose from https://github.com/tolik518/strong-api-workout-sync additionally to
 # have a ClickHouse server running with the workout data.
 #
 #   docker build -t heatmap .

@@ -86,7 +86,7 @@ jobs:
         run: |
           BASE_BRANCH="${{ github.event.pull_request.base.ref }}"
           git fetch origin "$BASE_BRANCH"
-          for DIR in "strong-api-lib" "strong-api-fetch"
+          for DIR in "strong-api-lib" "strong-sync-service"
           do
             echo "Checking $DIR"
             CHANGED_FILES=$(git diff --name-only origin/"$BASE_BRANCH"...HEAD -- "$DIR")

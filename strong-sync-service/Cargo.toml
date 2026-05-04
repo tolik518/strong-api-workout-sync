@@ -1,5 +1,5 @@
 [package]
-name = "strong-api-fetch"
+name = "strong-sync-service"
 version = "0.2.2"
 edition = "2024"
 

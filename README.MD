@@ -1,4 +1,4 @@
-# Strong APP Workout Fetch
+# Strong App Workout Sync
 
 This is a Rust-based service to fetch workouts from the [Strong App](https://www.strong.app/) (available for [Apple](https://apps.apple.com/us/app/strong-workout-tracker-gym-log/id464254577) and [Android](https://play.google.com/store/apps/details?id=io.strongapp.strong)) and store them in a ClickHouse database.
 
